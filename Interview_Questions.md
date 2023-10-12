@@ -7,7 +7,7 @@ A: In the current project we use the following tools orchestrated with Jenkins t
    
    Coming to the implementation, the entire process takes place in 8 steps
     
-    1. Code Commit: Developers commit code changes to a Git repository hosted on GitHub.
+    1. AWS Code Commit: Developers commit code changes to a Git repository hosted on GitHub.
     2. Jenkins Build: Jenkins is triggered to build the code using Maven. Maven builds the code and runs unit tests.
     3. Code Analysis: Sonar is used to perform static code analysis to identify any code quality issues, security vulnerabilities, and bugs.
     4. Security Scan: AppScan is used to perform a security scan on the application to identify any security vulnerabilities.
